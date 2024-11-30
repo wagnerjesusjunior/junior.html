@@ -1,0 +1,133 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+
+}
+header {
+  margin-top: 47PX;
+  margin-left: 42px;
+}
+
+
+  
+.link-header {
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color:  rgba(23, 35, 61, 1);
+    margin-right: 32px;
+    cursor: pointer;
+}
+.button-sing-up {
+   
+    background: rgba(111, 191, 68, 1);
+    border: 1px solid rgba(76, 181, 56, 1);
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #ffff;
+}
+   
+
+image {
+    margin: 163px 0 0 123px;
+    display: inline-block;
+}
+section{
+    display: inline-block;
+    margin-left: 85px;
+    width: 493px;
+
+}
+
+h1 {
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: rgba(22, 26, 73, 1);
+
+}
+p {
+  
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 33px;
+   letter-spacing: 0.5px;
+    color: rgba(75, 80, 90, 1);
+    margin-top: 47px;
+    margin-bottom: 55px;
+
+
+
+}
+.link-learn-more {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color:#6fbf44;
+    cursor: pointer;
+   
+    
+    
+}
+@media screen and (max-width: 600px){
+    .link-header {
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+    }
+    .link-learn-more {
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static;  
+
+
+    }
+    header {
+        display: none;
+    }
+
+   h1 {
+        font-size: 36px;
+        line-height: 52px;
+        width: auto;
+        margin: 58px 58px 0 58px;
+        text-align: center;
+   }
+   
+    p{
+        margin: 15px 40px;
+        width: auto;
+        text-align: center;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    a {
+        text-align: center;
+    }
+    
+}
+
+
+    
+
+
+    
+
+
+
